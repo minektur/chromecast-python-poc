@@ -1,6 +1,7 @@
 Proof of concept using python to talk to chromecast.
 
 Uses google's protobuf library 
+
 Uses chromium's cast_channel.proto as seen at
 
 <http://svnsearch.org/svnsearch/repos/CHROMIUM/search?revision=227345&showPaths=all>
@@ -22,4 +23,9 @@ You can just use the cast_channel_pb2.py included here, or you can
 install google's protobuf processor from <https://code.google.com/p/protobuf/>
 
 If you want to rebuild it, just run make
+
+
+-------------
+
+todo:  integrate this with pychromecast 
 
