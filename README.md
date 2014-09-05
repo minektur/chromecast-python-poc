@@ -22,6 +22,8 @@ Inspired by:
 You can just use the cast_channel_pb2.py included here, or you can
 install google's protobuf processor from <https://code.google.com/p/protobuf/>
 
+Dont forget to change the hard-coded IP to the IP of your cast device.
+
 If you want to rebuild it, just run make
 
 
