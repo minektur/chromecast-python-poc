@@ -1,7 +1,18 @@
 #!/usr/bin/env python
+#Copyright 2014 Fred Clift.  All Rights reserved.
+#Inspired by PHK
+#
+# ----------------------------------------------------------------------------
+# "THE BEER-WARE LICENSE":
+# <fred@clift.org> wrote this file. As long as you retain this notice you
+# can do whatever you want with this stuff. If we meet some day, and you think
+# this stuff is worth it, you can buy me a beer in return - Fred Clift
+# (except that I dont drink....)
+# ----------------------------------------------------------------------------
+#
+
 import cast_channel_pb2
 import socket, ssl, select, time, re
-from thread import start_new_thread
 from struct import pack,unpack
 import sys, os
 import json
