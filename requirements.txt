@@ -1,0 +1,2 @@
+hexdump>=2.0
+protobuf>=2.6.0
